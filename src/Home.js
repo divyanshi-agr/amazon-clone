@@ -17,7 +17,7 @@ function Home() {
             id="1"
             title="
             Acer Nitro VG240Y 23.8 inch Full HD IPS Monitor with FHD & AMD Radeon Freesync Technology (Black)"
-            price={150.98}
+            price={8000.98}
             rating={4}
             image="https://images-na.ssl-images-amazon.com/images/I/81iIch0B0rL._SL1500_.jpg"
           />
@@ -26,7 +26,7 @@ function Home() {
             id="2"
             title="
             OnePlus 7T (Glacier Blue, 8GB RAM, Fluid AMOLED Display, 256GB Storage, 3800mAH Battery)"
-            price={130.02}
+            price={500.02}
             image="https://images-na.ssl-images-amazon.com/images/I/71ncRs6HzyL._SL1500_.jpg"
             rating={3}
           />
@@ -36,7 +36,7 @@ function Home() {
           <Product
             id="3"
             title="HP Pavilion Gaming DK0268TX 15.6-inch Laptop (Core i5-9300H/8GB/512GB SSD/Windows 10 Home/4GB NVIDIA GeForce GTX 1650 Graphics), Shadow Black"
-            price={500}
+            price={800}
             rating={4}
             image="https://images-na.ssl-images-amazon.com/images/I/81pezrPSgOL._SL1500_.jpg"
           />
@@ -60,7 +60,7 @@ function Home() {
           <Product
             id="6"
             title="Philips HTL3320 3.1 CH 300 W Bluetooth Soundbar with Wireless Subwoofer, Dolby Digital Surround Sound, Optical Input and HDMI ARC"
-            price={29.99}
+            price={600.99}
             image="https://images-na.ssl-images-amazon.com/images/I/315kFgjKGDL.jpg"
             rating={5}
           />
