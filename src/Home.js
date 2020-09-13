@@ -30,6 +30,14 @@ function Home() {
             image="https://images-na.ssl-images-amazon.com/images/I/71ncRs6HzyL._SL1500_.jpg"
             rating={3}
           />
+
+          <Product
+            id="7"
+            title="Echo Plus (2nd Gen) – Premium sound, powered by Dolby, built-in Smart Home hub (Grey)"
+            price={400}
+            image="https://images-na.ssl-images-amazon.com/images/I/61KMEKAkWyL._SL1000_.jpg"
+            rating={2}
+          />
         </div>
 
         <div className="home-row">
@@ -54,6 +62,14 @@ function Home() {
             rating={3}
             image="https://images-na.ssl-images-amazon.com/images/I/81cJ1kUT1LL._SL1500_.jpg"
           />
+
+          <Product
+            id="8"
+            title="Kindle Paperwhite (10th gen) - with Built-in Light, Waterproof, 8 GB, WiFi"
+            price={230}
+            rating={3}
+            image="https://images-eu.ssl-images-amazon.com/images/I/41aTw6F6DDL._AC_US327_FMwebp_QL65_.jpg"
+          />
         </div>
 
         <div className="home-row">
@@ -62,6 +78,14 @@ function Home() {
             title="Philips HTL3320 3.1 CH 300 W Bluetooth Soundbar with Wireless Subwoofer, Dolby Digital Surround Sound, Optical Input and HDMI ARC"
             price={600.99}
             image="https://images-na.ssl-images-amazon.com/images/I/315kFgjKGDL.jpg"
+            rating={5}
+          />
+
+          <Product
+            id="9"
+            title="YouBella Artificial Jewellery Designer Crystal Bracelets for Women Bangles Jewellery for Girls and Women"
+            price={600.99}
+            image="https://m.media-amazon.com/images/I/71ciCrCUKtL._AC_UL480_FMwebp_QL65_.jpg"
             rating={5}
           />
         </div>
