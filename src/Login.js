@@ -1,16 +1,22 @@
 import React, { useState } from "react";
 import "./Login.css";
-import { Link } from "react-router-dom";
+import { Link, useHistory } from "react-router-dom";
 import { auth } from "./firebase";
 
 function Login() {
+  const history = useHistory();
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
 
   const signIn = (e) => {
     e.preventDefault();
 
-    //firebase login stuff
+    auth
+      .signInWithEmailAndPassword(email, password)
+      .then((auth) => {
+        history.push("/");
+      })
+      .catch((error) => alert(error.message));
   };
 
   const register = (e) => {
@@ -21,10 +27,12 @@ function Login() {
       .then((auth) => {
         //it successfully created a new user with email and pswd
         console.log(auth);
+        //if user is authenticated, push this home page in the history of the browser
+        if (auth) {
+          history.push("/");
+        }
       })
       .catch((error) => alert(error.message));
-
-    //firebase register stuff
   };
 
   return (
