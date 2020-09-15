@@ -53,7 +53,7 @@ function Payment() {
         setError(null);
         setProcessing(false);
 
-        history.replaceState("/orders");
+        history.replace("/orders");
       });
   };
 
